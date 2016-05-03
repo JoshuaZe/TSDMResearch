@@ -12,5 +12,6 @@ Including Research Code and Data
 You can include R code in the document as follows:
 
 ``` r
+load("../data/hs300.RData")
 source("TSClustering.R")
 ```
